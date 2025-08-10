@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="signup-section">
+            <div class="signup-details">
+                <h1>Stay updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+                <div class="signup-lists">
+                    <div class="list">
+                        <img src="assets/images/icon-list.svg" alt="signup-list-facts">
+                        <p>Product discovery and building what matters</p>
+                    </div>
+
+                    <div class="list">
+                        <img src="assets/images/icon-list.svg" alt="signup-list-facts">
+                        <p>Measuring to ensure updates are a success</p>
+                    </div>
+
+                    <div class="list">
+                        <img src="assets/images/icon-list.svg" alt="signup-list-facts">
+                        <p>And much more!</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="signup-actions">
+                <div class="labels">
+                    <h2>Email address</h2>
+                    <h2 class="error-label" id="errorLabel"> Valid email required</h2>
+                </div>
+
+                <input 
+                    class="actions email-input" 
+                    id="emailInput"
+                    type="text" 
+                    placeholder="email@company.com" 
+                    required>
+
+                <button 
+                    class="actions submit-btn" 
+                    id="submitBtn"
+                    type="submit"             
+                >Subscribe to monthly newsletter</button>
+            </div>
+        </div>
+
+        <div class="illustration">
+            <picture>
+                <source
+                    srcset="assets/images/illustration-sign-up-mobile.svg"
+                    media="(max-width: 768px)"
+                >
+
+                <source
+                    srcset="assets/images/illustration-sign-up-tablet.svg"
+                    media="(max-width: 1024px)"
+                >
+
+                <img 
+                    src="assets/images/illustration-sign-up-desktop.svg" 
+                    alt="illustration-sign-up-desktop"
+                >
+            </picture>
+            
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
