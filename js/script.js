@@ -17,8 +17,6 @@ submitBtn.addEventListener ("click",  (event) => {
         sessionStorage.setItem("userEmail", email);
         window.location.href = `success-page.html`;
         
-    }
-
-        
+    }   
 });
 
